@@ -68,6 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday_name = holiday_name.join(" ")
     p " #{holiday_name}: #{item.join(", ")} "
   end
+  end
 
 end
 
