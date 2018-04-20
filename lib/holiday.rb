@@ -82,12 +82,12 @@ def all_holidays_with_bbq(holiday_hash)
 
     if supplies.include?("BBQ")
       bbq_array.push(holiday)
-      bbq_array
 
       end
 
     end
 
   end
+  bbq_array
 
 end
